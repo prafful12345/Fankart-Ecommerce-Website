@@ -1,0 +1,85 @@
+#a{
+	border:1px solid orange;
+	text-align: center;
+	margin-top: 0px;
+	padding:40px 80px;
+	background-color: orange;
+	opacity: .7;
+	font-size: 50px;
+	color: black;
+	font-family: serif;
+}
+.acc img
+{
+	width:50%;
+	padding: 20px 0;
+	transition: 1s;
+	cursor: pointer;
+	margin-left:90px;
+
+} 
+
+
+
+
+
+.acc img:hover
+{
+	transform: scale(1.1);
+}
+
+@media only screen and (max-width: 980px)
+{
+	.acc img
+	{
+		width: 50%;
+	}
+	#a
+	{
+		width: 100%;
+		font-size: 30px;
+	}
+}
+/*--------------------------------Sunglasses-Brands--------------------------------------*/
+#b{
+	border:1px solid orange;
+	text-align: center;
+	margin-top: 0px;
+	padding:40px 80px;
+	background-color: orange;
+	opacity: .8;
+	font-size: 50px;
+	color: black;
+	font-family: serif;
+}
+.sun img
+{
+	width:50%;
+	padding: 20px 0;
+	transition: 1s;
+	cursor: pointer;
+	margin-left:90px;
+
+} 
+
+
+
+
+
+.sun img:hover
+{
+	transform: scale(1.1);
+}
+
+@media only screen and (max-width: 980px)
+{
+	.sun img
+	{
+		width: 50%;
+	}
+	#b
+	{
+		width: 100%;
+		font-size: 30px;
+	}
+}
